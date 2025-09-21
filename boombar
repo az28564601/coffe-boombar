@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Café الروعة</title>
+  <!-- خط عربي أنيق -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+      margin: 0; padding: 0;
+      background: #fdf6f0; color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover;
+      color: white; text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 { font-size: 3em; margin: 0; text-shadow: 2px 2px 5px #000; }
+    nav {
+      background: #6f4e37; text-align: center; padding: 10px;
+    }
+    nav a {
+      margin: 0 15px; color: #fff; text-decoration: none; font-weight: bold;
+    }
+    section {
+      padding: 40px 20px; max-width: 900px; margin: auto;
+    }
+    h2 { color: #6f4e37; border-bottom: 2px solid #6f4e37; padding-bottom: 10px; }
+    .menu-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+    }
+    .menu-item {
+      background: #fff; padding: 15px; border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .menu-item span:first-child { font-weight: bold; }
+    footer {
+      background: #6f4e37; color: #fff; text-align: center; padding: 20px;
+    }
+    iframe {
+      width: 100%; height: 300px; border:0; border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☕ Café الروعة</h1>
+    <p>أجمل مكان للاستمتاع بالقهوة والحلويات</p>
+  </header>
+
+  <nav>
+    <a href="#menu">القائمة</a>
+    <a href="#hours">ساعات العمل</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+
+  <section id="menu">
+    <h2>قائمتنا</h2>
+    <div class="menu-grid">
+      <div class="menu-item"><span>إسبريسو</span><span>10 ريال</span></div>
+      <div class="menu-item"><span>كابتشينو</span><span>15 ريال</span></div>
+      <div class="menu-item"><span>موكا</span><span>18 ريال</span></div>
+      <div class="menu-item"><span>لاتيه</span><span>16 ريال</span></div>
+      <div class="menu-item"><span>تشيز كيك</span><span>20 ريال</span></div>
+      <div class="menu-item"><span>كوكيز</span><span>8 ريال</span></div>
+    </div>
+  </section>
+
+  <section id="hours">
+    <h2>ساعات العمل</h2>
+    <p>📅 يومياً من 8 صباحاً – 11 مساءً</p>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <p>📍 الموقع: الرياض، شارع الملك</p>
+    <p>📞 الهاتف: 0500000000</p>
+    <p>📷 إنستغرام: <a href="https://instagram.com" target="_blank">@cafe_name</a></p>
+    <h3>📌 تجدنا على الخريطة</h3>
+    <!-- خريطة جوجل مدمجة -->
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.227373254896!2d46.6753!3d24.7136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f038b3c1b1b0f%3A0x6f9f3dff5f1a2d!2z2YXYsdmD2LIg2KfZhNiq2KzYp9ix2KfYqiDYp9mE2KfZhNiu2KfYqiDYp9mE2KfZhNiu2YjZhQ!5e0!3m2!1sar!2ssa!4v1700000000000!5m2!1sar!2ssa"
+      allowfullscreen="" loading="lazy">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Café الروعة | صنع بحب ☕</p>
+  </footer>
+</body>
+</html>
